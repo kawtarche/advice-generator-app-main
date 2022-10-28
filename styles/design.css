@@ -28,17 +28,22 @@ div.domino-wraper {
     justify-content: center;
 }
 
+
+
 div.dominos-container {
     background-color: #53FFAB;
     width: fit-content;
     padding: 15px;
     border-radius: 50%;
     display: flex;
+    cursor: pointer;
+}
 
+div.dominos-container:hover {
+    box-shadow: rgb(83 255 171) 0px 8px 29px;
 }
 
 div.quote {
-    color: white;
     color: #CEE3E8;
     margin-right: 70px;
     margin-left: 70px;
@@ -56,7 +61,6 @@ p.description-texte {
 
 img.divider {
     width: 90%;
-
 }
 
 @media (max-width: 768px) {
